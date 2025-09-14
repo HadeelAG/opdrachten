@@ -147,11 +147,25 @@ void draw() {
   noFill();
   rect(gameModeX, gameModeY, gameModeWidth, gameModeHeight);
   noStroke();
-  fill(white);
-  textSize(15);
+
+  String leftLabel = gameMode ? "Player" : "Player 1";
+  String rightLabel = gameMode ? "AI" : "Player 2";
+  String vsLabel = "VS";
+
+  textSize(14);
+
+  textAlign(RIGHT, CENTER);
+  fill(leftPaddleColor);
+  text(leftLabel, gameModeX + gameModeWidth/2.0 - 15, gameModeY + gameModeHeight/2.0);
+
+  textAlign(LEFT, CENTER);
+  fill(rightPaddleColor);
+  text(rightLabel, gameModeX + gameModeWidth/2.0 + 15, gameModeY + gameModeHeight/2.0);
+
   textAlign(CENTER, CENTER);
-  String gameModeText = gameMode ? "Player VS AI" : "Player VS Player";
-  text(gameModeText, gameModeX + gameModeWidth/2, gameModeY + gameModeHeight/2);
+  fill(white);
+  text(vsLabel, gameModeX + gameModeWidth/2.0, gameModeY + gameModeHeight/2.0);
+
 
   if (!won) {
     handlePaddleMovement();
@@ -232,15 +246,9 @@ void handlePaddleMovement() {
   if (keyPressed) {
     if (key == 'w' || key == 'W') leftPaddle.move(true);
     if (key == 's' || key == 'S') leftPaddle.move(false);
-
-    if (!gameMode) {
-      if (keyCode == UP) rightPaddle.move(true);
-      if (keyCode == DOWN) rightPaddle.move(false);
-    }
   }
 
   if (!gameMode) {
-    //handleComupterMovement();
     if (keyPressed) {
       if (keyCode == UP && rightPaddle.ypos - rightPaddle.Vel >= 0) rightPaddle.move(true);
       if (keyCode == DOWN && rightPaddle.ypos + rightPaddle.Vel + rightPaddle.paddleHeight <= canvasHeight) rightPaddle.move(false);
