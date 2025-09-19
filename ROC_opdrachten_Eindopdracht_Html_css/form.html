@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cat Place: Form</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -16,5 +21,55 @@
         </nav>
       </div>
     </header>
+
+    <main>
+      <section>
+        <h2>Adopteer een kat vandaag!</h2>
+        <p>Vul het formulier in om interesse te tonen</p>
+        <form>
+          <div>
+            <label>Hele Naam</label>
+            <input type="text" name="name" id="name" placeholder="John" />
+          </div>
+
+          <div>
+            <label>E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="john@catco.com"
+            />
+          </div>
+
+          <div>
+            <label>Voorkeur</label>
+            <select name="preference" id="preference">
+              <option value="kitten">Kitten</option>
+              <option value="adult">Volwassen</option>
+              <option value="no-preference">Geen voorkeur</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Bericht</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Waarom wil je een kat adopteren?"
+            ></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Verstuur</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </section>
+
+      <footer>
+        <p>2025 Cat Place. All rights reserved.</p>
+      </footer>
+    </main>
   </body>
 </html>

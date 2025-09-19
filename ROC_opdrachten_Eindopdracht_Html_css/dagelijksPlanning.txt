@@ -3,6 +3,7 @@
 3. Galerij met katten
 4. Adoptieformulier
 
+
 Proces of Planning
 
 Doe elke dag dat ik eraan werk een commit.
@@ -18,6 +19,7 @@ Overal dezelfde header en footer.
 Gebruik correcte HTML-tags (header, nav, main, section, article, footer).
 
 Ontwerp
+
 
 Werkt op telefoon, tablet en desktop
 

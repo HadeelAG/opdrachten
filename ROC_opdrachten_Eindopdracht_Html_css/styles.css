@@ -4,5 +4,19 @@
   padding: 0;
 }
 
+:root {
+  --bg: #fff8ff;
+  --text: #222;
+  --accent: #6b4cff;
+  --card: #ffffff;
+}
+
 body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  background: var(--accent);
+  color: var(--card);
 }
