@@ -12,11 +12,12 @@ Schrijf een korte reflectie en een verbeteridee en upload deze.
 
 Pagina's of de Structuur
 
-3 pagina's Home, Galerij, Formulier.
+3 pagina's Home, Galerij, Formulier. -
 
 Overal dezelfde header en footer.
 
-Gebruik correcte HTML-tags (header, nav, main, section, article, footer).
+Gebruik correcte HTML-tags (header, nav, main, section, article, footer).- 
+
 
 Ontwerp
 
