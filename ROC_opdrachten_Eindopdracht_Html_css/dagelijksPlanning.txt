@@ -12,61 +12,68 @@ Schrijf een korte reflectie en een verbeteridee en upload deze.
 
 Pagina's of de Structuur
 
-3 pagina's Home, Galerij, Formulier. -
+3 pagina's Home, Galerij, Formulier. ✅s
 
-Overal dezelfde header en footer.
+Overal dezelfde header en footer. ✅
 
-Gebruik correcte HTML-tags (header, nav, main, section, article, footer).- 
+Gebruik correcte HTML-tags (header, nav, main, section, article, footer).- ✅
 
 
 Ontwerp
 
 
-Werkt op telefoon, tablet en desktop
+Werkt op telefoon, tablet en desktop ✅
 
-De layout moet er een beetje speciaal uitzien (gebruik een grid, niet alleen gestapelde blokken)
+De layout moet er een beetje speciaal uitzien (gebruik een grid, niet alleen gestapelde blokken) ✅
 
-Goede spaties, leesbare tekst, goed contrast.
+Goede spaties, leesbare tekst, goed contrast. ✅
 
-Paginatitels en metabeschrijving
+Paginatitels en metabeschrijving ✅
 
 Galerij
 
-Galerijpagina met afbeeldingen in een raster
+Galerijpagina met afbeeldingen in een grid ✅
 
-Goede alt-tekst
+Goede alt-tekst ✅
 
-als je op de afbeelding klikt opent het groter (lightbox).
-
-Afbeeldingen laden snel (lazy loading) en worden netjes aangepast.
+Afbeeldingen laden snel (lazy loading) en worden netjes aange past. ✅
 
 Form
 
-form met tekst, e-mail, selectie, tekstvak.
+form met tekst, e-mail, selectie, tekstvak. ✅
 
 Invoer heeft error styling.
 
-Elke invoer heeft een correct label.
+Elke invoer heeft een correct label. ✅
 
 CSS
 
-Eén overzichtelijk CSS-bestand.
+Eén overzichtelijk CSS-bestand. ✅
 
-Gebruik Flexbox en Grid.
+Gebruik Flexbox en Grid. ✅ 
 
-Gebruik selectors zoals :nth-child, :focus-visible
+Gebruik selectors zoals :nth-child, :focus-visible ✅
 
 Toegankelijkheid
 
-Alle afbeeldingen hebben alt-tekst.
+Alle afbeeldingen hebben alt-tekst. ✅
 
-Focusstijlen zijn duidelijk, je kunt er met het toetsenbord doorheen bladeren.
+Focusstijlen zijn duidelijk, je kunt er met het toetsenbord doorheen bladeren.✅
 
-Goed kleurcontrast
+Goed kleurcontrast ✅
 
 Polishes
 
-Mooie hover-achtige focuseffecten en vloeiende overgangen
+Mooie hover-achtige focuseffecten en vloeiende overgangen ✅
 
-Lettertypen
-met tussenruimte zien er consistent uit
+Lettertypen ✅
+met tussenruimte zien er consistent uit ✅
+
+Reflectie: 
+Deze project was wel een beetje moeilijker dan ik dacht HTML vind ik makkelijk maar CSS is wel mijn zwakte punt.
+Wat er ging goed was dat ik snel de HTML kon schrijven en de structuur ervan goed te maken.
+wat ik denk niet zo goed ging was de CSS ik moest heel veel elementen en selectors en properties opzoeken, 
+waarvan ik wist niet zoveel hoe ik moet er mee omgaan heel veel dingen gingen op de foute plek of iets werkte op een aparte manier.
+Hoe ik er mee omging is gewoon meer over lezen en uitleg krijgen (bijv. AI, Documention) en natuurlijk zelf proberen.
+Natuurlijk is het mischien niet de meest profesioneel website ook en het is niet zo erg geadvanceerd maar voor helemaal zelf doen vind ik het wel prima.
+Voor de volgende keer zou ik waarschijnlijk niks anders doen want het ging best vel oke en het was maar proberen en oefenen.
